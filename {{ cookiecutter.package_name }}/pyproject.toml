@@ -6,7 +6,7 @@ readme = "README.md"
 license = "MIT" 
 license-files = ["LICENSE"]
 authors = [
-    { name = "{{ cookiecutter.author_name", email = "{{ cookiecutter.author_email" }
+    { name = "{{ cookiecutter.author_name", email = "{{ cookiecutter.author_email }}" }
 ]
 requires-python = ">=3.14"
 dependencies = []
