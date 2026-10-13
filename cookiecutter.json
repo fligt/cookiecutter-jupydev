@@ -1,6 +1,10 @@
-{
-  "project_name": "Cookiecutter Website Simple",
-  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
-  "author": "Anonymous"
+{ 
+  "package_name": "my-package",
+  "version": "0.1.0", 
+  "description": "This is a cool python package",
+  "author_name": "Frank Ligterink",
+  "author_email": "frank.ligterink@gmail.com",
+  "github_username": "fligt", 
+  "github_url": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.package_name }}", 
+  "import_name": "{{ cookiecutter.package_name.lower().replace('-', '_') }}"
 }
-

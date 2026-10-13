@@ -1,0 +1,31 @@
+---
+title: Beyond nbdev
+jupyter:
+  jupytext:
+    text_representation:
+      extension: .qmd
+      format_name: quarto
+      format_version: '1.0'
+      jupytext_version: 1.19.6
+  kernelspec:
+    display_name: .venv
+    language: python
+    name: python3
+---
+
+```{python}
+import fix_uv_jupytext as fuv
+```
+
+```{python}
+fuv.say_hello('frank')
+```
+
+```python
+%%writefile ../src/fix_uv_jupytext/greetings.py
+
+def say_hello(name): 
+    '''This is a very simple function.'''
+
+    print(f'Hello and goodbye {name}')
+```

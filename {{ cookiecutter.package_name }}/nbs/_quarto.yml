@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: "../docs/"
+
+format:
+  html:
+    theme: default
+    css: custom.css
+
+website:
+  title: "uva2z"
+  page-navigation: true
+  navbar:
+    background: primary
+    search: true
+    right: 
+      - icon: github
+        href: "https://github.com/fligt/fix-uv-jupytext"
+  sidebar:
+    style: floating
+    contents: auto
+  page-footer: "2026 Rijkserfgoedlaboratorium Amsterdam"
