@@ -8,15 +8,15 @@ format:
     css: custom.css
 
 website:
-  title: "uva2z"
+  title: "{{ cookiecutter.package_name }}"
   page-navigation: true
   navbar:
     background: primary
     search: true
     right: 
       - icon: github
-        href: "https://github.com/fligt/fix-uv-jupytext"
+        href: "{{ cookiecutter.github_url }}"
   sidebar:
     style: floating
     contents: auto
-  page-footer: "2026 Rijkserfgoedlaboratorium Amsterdam"
+  page-footer: "{% now 'local', '%Y' %} Rijkserfgoedlaboratorium Amsterdam"
