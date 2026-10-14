@@ -1,1 +1,1 @@
-# Welcome to fix-uv-jupytext
+# Welcome to {{ cookiecutter.package_name }}

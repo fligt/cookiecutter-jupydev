@@ -1,5 +1,5 @@
 ---
-title: Beyond nbdev
+title: This is a quarto markdown notebook
 jupyter:
   jupytext:
     text_representation:
@@ -13,17 +13,12 @@ jupyter:
     name: python3
 ---
 
+Hi there! Run the code cell below to check if all is working well. 
+
 ```{python}
 from {{ cookiecutter.import_name }} import say_hello 
 
-say_hello("{{ cookiecutter.author_name }}")
+say_hello("{{ cookiecutter.auun tthor_name }}")
 ```
 
-```python
-%%writefile ../src/fix_uv_jupytext/greetings.py
 
-def say_hello(name): 
-    '''This is a very simple function.'''
-
-    print(f'Hello and goodbye {name}')
-```
