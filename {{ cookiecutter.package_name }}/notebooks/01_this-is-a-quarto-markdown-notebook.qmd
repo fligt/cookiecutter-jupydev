@@ -18,7 +18,7 @@ Hi there! Run the code cell below to check if all is working well.
 ```{python}
 from {{ cookiecutter.import_name }} import say_hello 
 
-say_hello("{{ cookiecutter.auun tthor_name }}")
+say_hello("{{ cookiecutter.author_name }}")
 ```
 
 
