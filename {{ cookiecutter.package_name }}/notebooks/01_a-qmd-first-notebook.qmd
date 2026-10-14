@@ -14,11 +14,9 @@ jupyter:
 ---
 
 ```{python}
-import fix_uv_jupytext as fuv
-```
+from {{ cookiecutter.import_name }} import say_hello 
 
-```{python}
-fuv.say_hello('frank')
+say_hello("{{ cookiecutter.author_name }}")
 ```
 
 ```python
