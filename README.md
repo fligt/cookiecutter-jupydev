@@ -32,7 +32,7 @@ Go the [quarto.org](https://quarto.org/docs/get-started/) website and follow the
 
 If you step into an existing project you can start working by simply cloning onto your computer. 
 
-    $ git clone git@github.com:fligt/your-repo.git
+    $ git clone git@github.com:your-gitname/your-repo.git
 
 Otherwise if you need to start from scratch you can use the python `cookiecutter` package to build your fresh folder structure using the `uv-project-a2z` template with the following terminal command: 
 
