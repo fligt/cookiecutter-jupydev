@@ -20,5 +20,5 @@ from {{ cookiecutter.import_name }} import say_hello
 
 say_hello("{{ cookiecutter.author_name }}")
 ```
-
+Do we still have our line above with 'Hi there'?
 
