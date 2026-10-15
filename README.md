@@ -10,7 +10,7 @@ Here are the steps that you need to take in order to get started with your first
 
 Go to the [docs.astral.sh/uv/](https://docs.astral.sh/uv/) website and follow the download and installation instructions for your operating system. 
 
-##$ STEP 2. Install VSCodium
+### STEP 2. Install VSCodium
 
 Download and install VSCodium from their website [vscodium.com](https://vscodium.com/). 
 
