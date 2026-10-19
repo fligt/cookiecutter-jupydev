@@ -12,7 +12,7 @@ Go to the [docs.astral.sh/uv/](https://docs.astral.sh/uv/) website and follow th
 
 ### STEP 2. Install Quarto 
 
-Go the [quarto.org](https://quarto.org/docs/get-started/) website and follow the download and installation instructions for your operating system. On a Debian based OS installing a .deb file can be done with the terminal command: *sudo dpkg -i <a-debian-package.deb*.    
+Go the [quarto.org](https://quarto.org/docs/get-started/) website and follow the download and installation instructions for your operating system. On a Debian based OS installing a .deb file can be done with the terminal command: `sudo dpkg -i a-debian-package.deb`.    
 
 
 ### STEP 3. Install VSCodium
