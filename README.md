@@ -12,7 +12,9 @@ Go to the [docs.astral.sh/uv/](https://docs.astral.sh/uv/) website and follow th
 
 ### STEP 2. Install Quarto 
 
-Go the [quarto.org](https://quarto.org/docs/get-started/) website and follow the download and installation instructions for your operating system. On a Debian based OS installing a .deb file can be done with the terminal command: `sudo dpkg -i a-debian-package.deb`.    
+Go the [quarto.org](https://quarto.org/docs/get-started/) website and follow the download and installation instructions for your operating system. On a Debian based OS installing a `.deb` file can be done with the terminal command: 
+
+    $ sudo dpkg -i some-package.deb     
 
 
 ### STEP 3. Install VSCodium
@@ -39,7 +41,7 @@ If you step into an existing project you can start working by simply cloning ont
 
 Otherwise if you need to start from scratch you can use the python `cookiecutter` package to build your fresh folder structure using the `uv-project-a2z` template with the following terminal command: 
 
-     $  uvx cookiecutter https://github.com/fligt/cookiecutter-uv-project-a2z 
+    $ uvx cookiecutter https://github.com/fligt/cookiecutter-uv-project-a2z 
      
 Answering all the cookiecutter questions in the terminal to generate the project folder structure. 
 
