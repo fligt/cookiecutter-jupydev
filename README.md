@@ -10,19 +10,22 @@ Here are the steps that you need to take in order to get started with your first
 
 Go to the [docs.astral.sh/uv/](https://docs.astral.sh/uv/) website and follow the download and installation instructions for your operating system. 
 
-### STEP 2. Install VSCodium
+### STEP 2. Install Quarto 
+
+Go the [quarto.org](https://quarto.org/docs/get-started/) website and follow the download and installation instructions for your operating system. On a Debian based OS installing a .deb file can be done with the terminal command: *sudo dpkg -i <a-debian-package.deb*.    
+
+
+### STEP 3. Install VSCodium
 
 Download and install VSCodium from their website [vscodium.com](https://vscodium.com/). 
 
-### STEP 3. Install a bunch of extensions within VSCodium 
+### STEP 4. Install a bunch of extensions within VSCodium 
 
-Open the Extensions pane from the VSCodium side menu and install the following extensions: Python, Python Debugger, Python Environments, Python Snippets 3, Jupyter, Jupyter Notebook Renderers, Jupyter Keymap, Jupytext Sync, Live Server, Material Icon Theme 
+Open the Extensions pane from the VSCodium side menu and install the following extensions: Python, Python Debugger, Python Environments, Python Snippets 3, Jupyter, Jupyter Notebook Renderers, Quarto, Jupytext Sync, Live Server, Material Icon Theme 
+
+This is quite a long list. We still need to find out which are really essential.  
 
 After installing the extensions restart VSCodium. 
-
-### STEP 4. Install Quarto 
-
-Go the [quarto.org](https://quarto.org/docs/get-started/) website and follow the download and installation instructions for your operating system. On a Debian based OS installing a .deb file can be done with the terminal command: *sudo dpkg -i <a-debian-package.deb*.    
 
 ### STEP 5. Configure `git` and create a Github account 
 
