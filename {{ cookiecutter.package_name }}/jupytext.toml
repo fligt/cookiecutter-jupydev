@@ -5,7 +5,7 @@
 "docs_qmd/" = "qmd"
 
 
-# Source notebooks are paired with Python modules in src folder 
+# Python modules registered as py:percent text notebooks? 
+# Can this work without pairing to another format?  
 [[formats]]
- "src_qmd/" = "qmd" 
 "src/{{ cookiecutter.package_name.lower().replace('-', '_') }}/" = "py:percent"
