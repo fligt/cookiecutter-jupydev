@@ -9,4 +9,4 @@
 [[formats]]
 "src_notebooks/" = "ipynb" # gitignored 
 "src_notebooks/" = "qmd" 
-"src/{{ cookiecutter.package_name }}/" = "py:percent"
+"src/{{ cookiecutter.import_name }}/" = "py:percent"
