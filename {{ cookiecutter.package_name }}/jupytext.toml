@@ -2,11 +2,11 @@
 # Documentation classic ipynb notebooks get paired to quarto qmd markdown notebooks in same folder 
 [[formats]]
 "docs_notebooks/" = "ipynb"
-"docs_notebooks/" = "qmd"
+"docs_notebooks/" = "md"
 
 
 # Source notebooks are paired with Python modules in src folder 
 [[formats]]
 "src_notebooks/" = "ipynb" 
-"src_notebooks/" = "qmd" 
+"src_notebooks/" = "md" 
 "src/{{ cookiecutter.package_name.lower().replace('-', '_') }}/" = "py:percent"
