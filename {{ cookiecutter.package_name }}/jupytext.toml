@@ -1,12 +1,12 @@
 # This jupytext.toml configuration file should enforce automatic pairing of various notebook formats 
 # Documentation classic ipynb notebooks get paired to quarto qmd markdown notebooks in same folder 
 [[formats]]
-"docs_notebooks/" = "ipynb" # gitignored 
-"docs_notebooks" = "qmd"
+"docs_notebooks/" = "ipynb"
+"docs_notebooks/" = "qmd"
 
 
 # Source notebooks are paired with Python modules in src folder 
 [[formats]]
-"src_notebooks/" = "ipynb" # gitignored 
+"src_notebooks/" = "ipynb" 
 "src_notebooks/" = "qmd" 
 "src/{{ cookiecutter.package_name.lower().replace('-', '_') }}/" = "py:percent"
