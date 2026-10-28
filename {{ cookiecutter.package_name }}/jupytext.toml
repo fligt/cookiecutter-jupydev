@@ -7,6 +7,5 @@
 
 # Source notebooks are paired with Python modules in src folder 
 [[formats]]
-"src_notebooks/" = "ipynb" 
-"src_qmd/" = "qmd" 
+ "src_qmd/" = "qmd" 
 "src/{{ cookiecutter.package_name.lower().replace('-', '_') }}/" = "py:percent"
