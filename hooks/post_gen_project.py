@@ -14,6 +14,12 @@ def main() -> None:
         ["git", "init", "-b", "master"], 
         check=True,
     )
+    
+    # and add github remote 
+    subprocess.run(
+        ["git", "remote", "add", "origin", "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.package_name }}"], 
+        check=True, 
+    )
 
 if __name__ == "__main__":
     main()
