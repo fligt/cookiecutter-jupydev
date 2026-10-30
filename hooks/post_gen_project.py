@@ -3,7 +3,7 @@ import subprocess
 
 def main() -> None:
     subprocess.run(
-        ["uv", "add", "--dev", "pip", "ipykernel", "nbclient", "jupytext"],
+        ["uv", "add", "--dev", "pip", "ipykernel", "nbclient", "jupytext", "jupyter"],
         check=True,
     )
 
