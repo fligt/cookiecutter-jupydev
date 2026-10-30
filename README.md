@@ -8,7 +8,7 @@ Here are the steps that you need to take in order to get started with your first
 
 ### STEP 1. Install the Miniconda Python environment and a few Python packages 
 
-Go to the Anaconda website and follow the [installation instructions](https://www.anaconda.com/docs/getting-started/installation) for your operating system. We advice to install Miniconda which provide a basic Python environment. 
+Go to the Anaconda website and follow the [installation instructions](https://www.anaconda.com/docs/getting-started/installation) for your operating system. We advice to install Miniconda which provides a basic Python environment. 
 
 After installing Miniconda, upgrade pip and install jupyter with the following commands: 
 
@@ -29,7 +29,7 @@ Go the [quarto.org](https://quarto.org/docs/get-started/) website and follow the
 
 ### STEP 4. Configure `git` and create a Github account 
 
-(Still need to find good instructions to set this up)  
+(Still need to find good instructions to set up git and a github account)  
 
 ### STEP 5. Create your new jupydev project with cookiecutter 
 
