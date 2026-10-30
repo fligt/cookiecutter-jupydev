@@ -85,9 +85,10 @@ docs/_build/
 # PyBuilder
 target/
 
+# FL added the double star glob patterns  
 # Jupyter Notebook
-.ipynb_checkpoints
-.jupyter
+**.ipynb_checkpoints
+**.jupyter
 
 # pyenv
 .python-version
@@ -150,5 +151,6 @@ checklink/cookies.txt
 .deb
 .pkg
 
+# FL added the double star glob pattern 
 # Quarto
-.quarto
+**.quarto
