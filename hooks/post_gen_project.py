@@ -5,7 +5,7 @@ def main() -> None:
 
     # create uv project environment  
     subprocess.run(
-        ["uv", "add", "--dev", "pip", "ipykernel", "nbclient", "jupytext", "jupyter"],
+        ["uv", "add", "--dev", "pip", "ipykernel", "nbclient", "jupytext", "jupyter", "jupyterlab-quarto"],
         check=True,
     )
     
