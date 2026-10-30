@@ -1,50 +1,44 @@
-# Welcome to the uv-project-a2z cookiecutter template 
+# Welcome to the jupydev cookiecutter template 
 
-Fasten your seatbelts. After a decade of learning to code with Python and Jupyter notebooks that 'work on my computer' it is now time to take the development of Python packages to a next level and join forces with colleagues. In order to do so we need an efficient workflow to to turn early experimental code in Jupyter notebooks into shared, solid, clean and well documented python packages. This can now be done by combining a handfull of modern powerfull systems: 
+Fasten your seatbelts. After a decade of learning to code with Python and Jupyter notebooks that 'work on my computer' it is now time to take the development of Python packages to a next level and join forces with colleagues. In order to do so we need an efficient workflow to turn early experimental code in Jupyter notebooks into shared, solid, clean, well documented and version controlled python packages. This can now be done by combining a handfull of modern powerfull systems: 
 
-**uv + codium + jupyter + jupytext + quarto + git** 
+**uv + jupyter + jupytext + quarto + git** 
 
-Here are the steps that you need to take in order to get started with your first uv A to Z project. 
+Here are the steps that you need to take in order to get started with your first jupydev project. 
 
-### STEP 1. Install the `uv` Python package and project manager 
+### STEP 1. Install the Miniconda Python environment and a few Python packages 
+
+Go to the Anaconda website and follow the [installation instructions](https://www.anaconda.com/docs/getting-started/installation) for your operating system. We advice to install Miniconda which provide a basic Python environment. 
+
+After installing Miniconda, upgrade pip and install jupyter with the following commands: 
+
+    $ pip install -U pip 
+    $ pip install jupyter 
+    $ pip install cookiecutter 
+ 
+### STEP 2. Install the `uv` Python package and project manager 
 
 Go to the [docs.astral.sh/uv/](https://docs.astral.sh/uv/) website and follow the download and installation instructions for your operating system. 
 
-### STEP 2. Install Quarto 
+### STEP 3. Install Quarto 
 
-Go the [quarto.org](https://quarto.org/docs/get-started/) website and follow the download and installation instructions for your operating system. On a Debian based OS installing a `.deb` file can be done with the terminal command: 
+Go the [quarto.org](https://quarto.org/docs/get-started/) website and follow the download and installation instructions for your operating system. On a Debian-linux based OS installing a `.deb` file can be done with the terminal command: 
 
     $ sudo dpkg -i some-package.deb     
 
 
-### STEP 3. Install VSCodium
-
-Download and install VSCodium from their website [vscodium.com](https://vscodium.com/). 
-
-### STEP 4. Install a bunch of extensions within VSCodium 
-
-Open the Extensions pane from the VSCodium side menu and install the following extensions: Python, Python Debugger, Python Environments, Python Snippets 3, Jupyter, Jupyter Notebook Renderers, Quarto, Jupytext Sync, Live Server, Material Icon Theme 
-
-This is quite a long list. We still need to find out which are really essential.  
-
-After installing the extensions restart VSCodium. 
-
-### STEP 5. Configure `git` and create a Github account 
+### STEP 4. Configure `git` and create a Github account 
 
 (Still need to find good instructions to set this up)  
 
-### STEP 6. Clone existing or create a new local project folder   
+### STEP 5. Create your new jupydev project with cookiecutter 
 
-If you step into an existing project you can start working by simply cloning onto your computer. 
+ Use the jupydev cookiecutter template to create your own local project folder with the following terminal command: 
+ 
+      $ cookiecutter https://github.com/fligt/cookiecutter-jupydev
+ 
+### Start working on your project 
 
-    $ git clone git@github.com:your-gitname/your-repo.git
-
-Otherwise if you need to start from scratch you can use the python `cookiecutter` package to build your fresh folder structure using the `uv-project-a2z` template with the following terminal command: 
-
-    $ uvx cookiecutter https://github.com/fligt/cookiecutter-uv-project-a2z 
-     
-Answering all the cookiecutter questions in the terminal to generate the project folder structure. 
-
-
+(Need some instructions here on how to do things.)
 
 
