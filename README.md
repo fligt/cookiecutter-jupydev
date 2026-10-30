@@ -45,8 +45,8 @@ In order to get started open a terminal, cd into the project folder and start ju
 
     $ uv run jupyter lab . 
     
-By prepending `uv run` the jupyterlab instance is aware of the python modules that are present in the `src/<your_package>` folder of the uv project. This means that they can be imported into your notebooks.  
+If you have used `jupyter lab .` before you might wonder why we have prepended `uv run` to the command. By prepending `uv run` the jupyterlab instance is aware of the python modules that are present in the `src/<your_package>` folder of the uv project. This means that they can be imported into your notebooks.   
 
-(Need some furtehr instructions here on how to do things.)
+(Need some further instructions here on how to do things.)
 
 
