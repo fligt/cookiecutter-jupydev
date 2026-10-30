@@ -35,10 +35,18 @@ Go the [quarto.org](https://quarto.org/docs/get-started/) website and follow the
 
  Use the jupydev cookiecutter template to create your own local project folder with the following terminal command: 
  
-      $ cookiecutter https://github.com/fligt/cookiecutter-jupydev
+      $ cookiecutter https://github.com/fligt/cookiecutter-jupydev 
+      
+Answer all questions to generate the complete project folder structure with example notebooks. 
  
 ### Start working on your project 
 
-(Need some instructions here on how to do things.)
+In order to get started open a terminal, cd into the project folder and start jupyter lab with the following command: 
+
+    $ uv run jupyter lab . 
+    
+By prepending `uv run` the jupyterlab instance is aware of the python modules that are present in the `src/<your_package>` folder of the uv project. This means that they can be imported into your notebooks.  
+
+(Need some furtehr instructions here on how to do things.)
 
 
