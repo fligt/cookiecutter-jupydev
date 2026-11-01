@@ -18,7 +18,15 @@ dependencies = []
 requires = ["uv_build>=0.12.2,<0.14"]
 build-backend = "uv_build"
 
-[tool.jupytext]
-formats = "ipynb,qmd" 
+# these new jupytext settings below should improve 
+# the compatibility between vscode (koen) and jupterlab (frank)
+#[tool.jupytext]
+#formats = "ipynb,qmd" 
+
+[[tool.jupytext.formats]]
+"notebooks/" = "qmd"
+
+[[tool.jupytext.formats]]
+"src/{{ cookiecutter.package_name.lower().replace('-', '_') }}/" = "py:percent"
 
 
