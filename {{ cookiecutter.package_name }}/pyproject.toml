@@ -21,9 +21,10 @@ build-backend = "uv_build"
 # these new jupytext settings below should improve 
 # the compatibility between vscode (koen) and jupterlab (frank)
 # uncommented two lines directly below 
-# need to test if this now works 
-[tool.jupytext]
-formats = "ipynb,qmd" 
+# need to test if this now works  
+# toml parsing breaks, so commenting out again
+#[tool.jupytext]
+#formats = "ipynb,qmd" 
 
 [[tool.jupytext.formats]]
 "notebooks/" = "qmd"
