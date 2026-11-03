@@ -30,10 +30,10 @@ build-backend = "uv_build"
 
 [[tool.jupytext.formats]]
 "notebooks/" = "qmd"
-".nbs/_docs/" = "ipynb"
+"_nbs/_docs/" = "ipynb"
 
 [[tool.jupytext.formats]]
 "src/{{ cookiecutter.package_name.lower().replace('-', '_') }}/" = "py:percent"
-".nbs/_src/" = "ipynb"
+"_nbs/_src/" = "ipynb"
 
 
