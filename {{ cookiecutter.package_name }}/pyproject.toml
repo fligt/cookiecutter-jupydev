@@ -23,13 +23,17 @@ build-backend = "uv_build"
 # uncommented two lines directly below 
 # need to test if this now works  
 # toml parsing breaks, so commenting out again
+# instead now providing separate folders in ".nbs/" for pairing 
+
 #[tool.jupytext]
 #formats = "ipynb,qmd" 
 
 [[tool.jupytext.formats]]
 "notebooks/" = "qmd"
+".nbs/_docs/" = "ipynb"
 
 [[tool.jupytext.formats]]
 "src/{{ cookiecutter.package_name.lower().replace('-', '_') }}/" = "py:percent"
+".nbs/_src/" = "ipynb"
 
 
