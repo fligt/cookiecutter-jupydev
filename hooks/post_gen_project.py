@@ -16,6 +16,7 @@ def main() -> None:
     )
     
     # and add github remote 
+    # perhaps better not? 
     subprocess.run(
         ["git", "remote", "add", "origin", "git@github.com:{{ cookiecutter.github_username }}/{{ cookiecutter.package_name }}.git"], 
         check=True, 
