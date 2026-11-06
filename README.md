@@ -41,7 +41,11 @@ Answer all questions to generate the complete project folder structure with exam
  
 ### Start working on your project 
 
-In order to get started open a terminal, cd into the project folder and start jupyter lab with the following command: 
+In order to get started open a terminal, cd into the project folder. First make sure that all dependencies are installed by running: 
+
+    $ uv sync 
+
+Then start jupyter lab with the following command (yes you need to type a `.`): 
 
     $ uv run jupyter lab . 
     
