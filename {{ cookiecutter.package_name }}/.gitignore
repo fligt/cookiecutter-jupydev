@@ -93,8 +93,9 @@ target/
 **.jupyter
 *.ipynb
 
+# FL commented this out (or should we not pin the python version?)
 # pyenv
-.python-version
+#.python-version
 
 # celery beat schedule file
 celerybeat-schedule
