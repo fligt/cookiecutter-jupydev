@@ -21,4 +21,4 @@ website:
   sidebar:
     style: floating
     contents: auto
-  page-footer: "{% now 'local', '%Y' %} Rijkserfgoedlaboratorium Amsterdam"
+  page-footer: "{% now 'local', '%Y' %} Rijkserfgoedlaboratorium Amsterdam | made with jupydev"
