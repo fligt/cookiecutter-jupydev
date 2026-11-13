@@ -1,5 +1,5 @@
 ---
-title: Getting started
+title: Welcome to {{ cookiecutter.package_name }}
 jupyter:
   jupytext:
     text_representation:
@@ -13,6 +13,8 @@ jupyter:
     name: python3
 ---
 
+{% raw %}
+{{< include ../README.md >}}
+{% endraw %}
 
-Here is a first step.
 
