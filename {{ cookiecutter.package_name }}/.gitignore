@@ -87,10 +87,13 @@ docs/_build/
 # PyBuilder
 target/
 
-# FL added the double star glob patterns  
+# FL add the classic *.ipynb notebooks 
+# as these are often large and complicated Json files 
+# only their paired py:percent and qmd counterparts 
+# should end up on github 
 # Jupyter Notebook
-**.ipynb_checkpoints
-**.jupyter
+.ipynb_checkpoints
+*.jupyter
 *.ipynb
 
 # FL commented this out (or should we not pin the python version?)
