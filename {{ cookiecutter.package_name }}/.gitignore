@@ -1,8 +1,6 @@
-# FL commnented this out 
-#_docs/
+_docs/
 _proc/
-# FL commented this out
-#_nbs/
+_nbs/
 
 *.bak
 .gitattributes
